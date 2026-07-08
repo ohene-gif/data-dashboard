@@ -1,16 +1,42 @@
-# React + Vite
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Book Explorer Dashboard is a React web application that uses the Open Library API to display information about computer science books. Users can explore books, search for titles, and filter results based on publication year.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [x] Dashboard displays data fetched from a public API
+- [x] Displays at least 10 unique items
+- [x] Displays multiple attributes for each item
+- [x] Uses the React useEffect() hook
+- [x] Uses async/await syntax for API requests
+- [x] Displays three summary statistics
+- [x] Search bar filters results dynamically
+- [x] Additional filter allows users to filter by category
+- [x] Dashboard updates based on user input
 
-## React Compiler
+## Dashboard Statistics
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The dashboard displays:
 
-## Expanding the ESLint configuration
+- Total number of books loaded
+- Number of books currently displayed
+- Number of unique authors
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Search and Filtering
+
+Users can:
+- Search books by title using the search bar
+- Filter books by publication year using the dropdown filter
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Open Library API
+
+
+## Author
+
+Ohene Osei
