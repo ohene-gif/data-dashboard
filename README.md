@@ -1,6 +1,8 @@
+# 📚 Book Explorer Dashboard
+
 ## Overview
 
-Book Explorer Dashboard is a React web application that uses the Open Library API to display information about computer science books. Users can explore books, search for titles, and filter results based on publication year.
+Book Explorer Dashboard is a React web application that uses the Open Library API to explore computer science books. Users can view a dashboard of books, explore data visualizations, and click on individual books to view a detailed page with additional information.
 
 ## Features
 
@@ -10,23 +12,41 @@ Book Explorer Dashboard is a React web application that uses the Open Library AP
 - [x] Uses the React useEffect() hook
 - [x] Uses async/await syntax for API requests
 - [x] Displays three summary statistics
-- [x] Search bar filters results dynamically
-- [x] Additional filter allows users to filter by category
-- [x] Dashboard updates based on user input
+- [x] Clicking a book opens a unique detail page
+- [x] Detail page displays additional information about the selected book
+- [x] Uses React Router for navigation
+- [x] Includes two data visualizations using Recharts
+- [x] Charts display different aspects of the dataset
 
 ## Dashboard Statistics
 
 The dashboard displays:
 
 - Total number of books loaded
-- Number of books currently displayed
-- Number of unique authors
+- Number of books with available authors
+- Number of books with publication years
 
-## Search and Filtering
+## Data Visualizations
 
-Users can:
-- Search books by title using the search bar
-- Filter books by publication year using the dropdown filter
+The dashboard includes:
+
+### 📊 Books by Publication Year
+A bar chart showing the distribution of books based on their publication years.
+
+### 📚 Top Authors
+A pie chart showing the most common authors within the dataset.
+
+## Detail View
+
+Users can click any book title from the dashboard to navigate to a unique detail page.
+
+Each detail page displays:
+
+- Book title
+- Author
+- First publication year
+- Number of editions
+- Subjects
 
 ## Technologies Used
 
@@ -34,8 +54,9 @@ Users can:
 - Vite
 - JavaScript
 - CSS
+- React Router
+- Recharts
 - Open Library API
-
 
 ## Author
 
