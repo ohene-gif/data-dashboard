@@ -1,4 +1,4 @@
-# 📚 Book Explorer Dashboard
+#  Book Explorer Dashboard
 
 ## Overview
 
@@ -30,10 +30,10 @@ The dashboard displays:
 
 The dashboard includes:
 
-### 📊 Books by Publication Year
+###  Books by Publication Year
 A bar chart showing the distribution of books based on their publication years.
 
-### 📚 Top Authors
+###  Top Authors
 A pie chart showing the most common authors within the dataset.
 
 ## Detail View
